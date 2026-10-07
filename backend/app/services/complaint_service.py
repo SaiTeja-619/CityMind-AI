@@ -1,3 +1,4 @@
+import logging
 import secrets
 import uuid
 from datetime import datetime, timezone
@@ -7,14 +8,19 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.core.exceptions import BadRequestError, ConflictError, NotFoundError
+from app.ml_engine import analyze_complaint_text
 from app.models.category import ComplaintCategory
 from app.models.complaint import ALLOWED_STATUS_TRANSITIONS, Complaint, ComplaintStatus
+from app.models.complaint_ai_analysis import ComplaintAIAnalysis
 from app.models.complaint_attachment import ComplaintAttachment
 from app.models.complaint_status_history import ComplaintStatusHistory
+from app.models.department import Department
 from app.models.officer import Officer
 from app.models.user import User
 from app.schemas.complaint import ComplaintCreate
 from app.services.storage_service import MAX_ATTACHMENTS_PER_COMPLAINT, storage_service
+
+logger = logging.getLogger(__name__)
 
 
 class ComplaintService:
@@ -78,6 +84,34 @@ class ComplaintService:
         )
         db.add(initial_history)
 
+        # AI Analysis & Decision-Support (Fail-safe: failure must not block complaint creation)
+        try:
+            dept_stmt = select(Department.code, Department.id).where(Department.is_active == True)  # noqa: E712
+            dept_rows = (await db.execute(dept_stmt)).all()
+            dept_id_map = {str(row[0]).upper(): int(row[1]) for row in dept_rows}
+
+            ai_data = analyze_complaint_text(
+                title=complaint.title,
+                description=complaint.description,
+                department_id_map=dept_id_map,
+            )
+            if ai_data:
+                ai_record = ComplaintAIAnalysis(
+                    complaint_id=complaint.id,
+                    predicted_category=ai_data["predicted_category"],
+                    category_confidence=ai_data["category_confidence"],
+                    recommended_department_name=ai_data["recommended_department_name"],
+                    recommended_department_code=ai_data["recommended_department_code"],
+                    recommended_department_id=ai_data.get("recommended_department_id"),
+                    predicted_priority=ai_data["predicted_priority"],
+                    urgency_score=ai_data["urgency_score"],
+                    is_low_confidence=ai_data["is_low_confidence"],
+                    model_version=ai_data["model_version"],
+                )
+                db.add(ai_record)
+        except Exception as e:
+            logger.warning(f"AI analysis could not be completed for complaint {complaint.id}: {e}")
+
         await db.commit()
         await db.refresh(complaint)
 
@@ -100,6 +134,7 @@ class ComplaintService:
                 selectinload(Complaint.assigned_officer).selectinload(Officer.user).selectinload(User.role),
                 selectinload(Complaint.status_history).selectinload(ComplaintStatusHistory.changed_by_user),
                 selectinload(Complaint.attachments),
+                selectinload(Complaint.ai_analysis).selectinload(ComplaintAIAnalysis.recommended_department),
             )
             .where(Complaint.id == complaint_id)
         )
@@ -126,7 +161,9 @@ class ComplaintService:
             select(Complaint)
             .options(
                 selectinload(Complaint.category),
-                selectinload(Complaint.assigned_officer),
+                selectinload(Complaint.assigned_officer).selectinload(Officer.user),
+                selectinload(Complaint.assigned_officer).selectinload(Officer.department),
+                selectinload(Complaint.citizen),
             )
             .where(Complaint.citizen_id == citizen_id)
             .order_by(Complaint.created_at.desc())

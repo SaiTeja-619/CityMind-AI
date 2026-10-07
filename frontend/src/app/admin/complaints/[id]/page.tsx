@@ -7,6 +7,7 @@ import { DashboardLayout } from "@/components/layout/dashboard-layout";
 import { PageHeader } from "@/components/layout/page-header";
 import { StatusBadge } from "@/components/complaints/status-badge";
 import { PriorityBadge } from "@/components/complaints/priority-badge";
+import { AIAnalysisCard } from "@/components/complaints/ai-analysis-card";
 import { LoadingState } from "@/components/ui/loading-state";
 import { ErrorState } from "@/components/ui/error-state";
 import { complaintsApi, adminApi, ApiError } from "@/lib/api-client";
@@ -264,6 +265,9 @@ export default function AdminComplaintDetailsPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main Details (2 cols) */}
         <div className="lg:col-span-2 space-y-6">
+          {/* AI Decision Support & Triage Recommendation */}
+          <AIAnalysisCard data={complaint.ai_analysis} />
+
           {/* Detailed Description */}
           <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm space-y-4">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">

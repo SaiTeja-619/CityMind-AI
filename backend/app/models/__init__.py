@@ -7,6 +7,7 @@ from app.models.category import ComplaintCategory
 from app.models.complaint import Complaint, ComplaintStatus, ALLOWED_STATUS_TRANSITIONS
 from app.models.complaint_status_history import ComplaintStatusHistory
 from app.models.complaint_attachment import ComplaintAttachment
+from app.models.complaint_ai_analysis import ComplaintAIAnalysis
 
 __all__ = [
     "Base",
@@ -20,4 +21,5 @@ __all__ = [
     "ALLOWED_STATUS_TRANSITIONS",
     "ComplaintStatusHistory",
     "ComplaintAttachment",
+    "ComplaintAIAnalysis",
 ]

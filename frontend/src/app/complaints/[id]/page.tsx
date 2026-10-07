@@ -341,8 +341,8 @@ export default function ComplaintDetailsPage() {
             )}
           </div>
 
-          {/* AI Decision Support Placeholder Card */}
-          <AIAnalysisCard data={null} />
+          {/* AI Decision Support Card */}
+          <AIAnalysisCard data={complaint.ai_analysis} />
 
           {/* Citizen Security Notice */}
           <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 text-xs text-slate-500 flex items-start gap-3">

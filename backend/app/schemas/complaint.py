@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
-from typing import Any, List, Optional
-from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
+from typing import Any, Dict, List, Optional
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator, model_validator
 
 from app.models.complaint import ComplaintStatus
 from app.schemas.category import CategoryRead
@@ -93,6 +93,45 @@ class AssignedOfficerRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 
+class ComplaintAIAnalysisRead(BaseModel):
+    id: uuid.UUID
+    complaint_id: uuid.UUID
+    predicted_category: str
+    category_confidence: float
+    recommended_department_name: str
+    recommended_department_code: str
+    recommended_department_id: Optional[int] = None
+    predicted_priority: str
+    urgency_score: float
+    is_low_confidence: bool
+    model_version: str
+    created_at: datetime
+
+    @computed_field
+    def category_prediction(self) -> Dict[str, Any]:
+        return {
+            "category": self.predicted_category,
+            "confidence": self.category_confidence,
+        }
+
+    @computed_field
+    def recommended_department(self) -> Dict[str, Any]:
+        return {
+            "name": self.recommended_department_name,
+            "code": self.recommended_department_code,
+            "confidence": self.category_confidence,
+        }
+
+    @computed_field
+    def priority_prediction(self) -> Dict[str, Any]:
+        return {
+            "priority": self.predicted_priority,
+            "urgency_score": self.urgency_score,
+        }
+
+    model_config = ConfigDict(from_attributes=True)
+
+
 class ComplaintRead(BaseModel):
     id: uuid.UUID
     ticket_number: str
@@ -116,6 +155,7 @@ class ComplaintRead(BaseModel):
     closed_at: Optional[datetime] = None
     citizen: Optional[UserRead] = None
     assigned_officer: Optional[AssignedOfficerRead] = None
+    ai_analysis: Optional[ComplaintAIAnalysisRead] = None
 
     model_config = ConfigDict(from_attributes=True)
 

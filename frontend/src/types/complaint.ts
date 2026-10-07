@@ -98,6 +98,18 @@ export interface Complaint {
 }
 
 export interface AIAnalysisData {
+  id?: string;
+  complaint_id?: string;
+  predicted_category?: string;
+  category_confidence?: number;
+  recommended_department_name?: string;
+  recommended_department_code?: string;
+  recommended_department_id?: number | null;
+  predicted_priority?: string;
+  urgency_score?: number;
+  is_low_confidence?: boolean;
+  model_version?: string;
+  created_at?: string;
   category_prediction?: {
     category: string;
     confidence: number;
@@ -105,10 +117,10 @@ export interface AIAnalysisData {
   recommended_department?: {
     name: string;
     code: string;
-    confidence: number;
+    confidence?: number;
   };
   priority_prediction?: {
-    priority: ComplaintPriority;
+    priority: ComplaintPriority | string;
     urgency_score: number;
   };
   duplicate_detection?: {
@@ -205,6 +217,7 @@ export interface ComplaintResponse {
   updated_at: string;
   resolved_at?: string | null;
   closed_at?: string | null;
+  ai_analysis?: AIAnalysisData | null;
 }
 
 export interface ComplaintDetailResponse extends ComplaintResponse {

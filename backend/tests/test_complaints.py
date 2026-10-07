@@ -504,6 +504,54 @@ async def test_list_my_complaints_pagination(
     assert "total_pages" in data
 
 
+@pytest.mark.asyncio
+async def test_list_my_complaints_with_assigned_officer_serialization(
+    client: AsyncClient,
+    citizen_token: str,
+    admin_token: str,
+    test_officer_user: User,
+    test_category: ComplaintCategory,
+):
+    """
+    Regression test:
+    Verify GET /api/v1/complaints/my serializes complaints that have an assigned officer
+    without raising MissingGreenlet on assigned_officer.user.
+    """
+    headers_citizen = {"Authorization": f"Bearer {citizen_token}"}
+    create_res = await client.post(
+        "/api/v1/complaints",
+        json=make_complaint_payload(test_category.id, title="Pothole with Officer Assigned"),
+        headers=headers_citizen,
+    )
+    assert create_res.status_code == 201
+    cid = create_res.json()["id"]
+
+    # Admin assigns the complaint to an officer
+    headers_admin = {"Authorization": f"Bearer {admin_token}"}
+    officer_profile_id = test_officer_user.officer_profile.id
+    assign_res = await client.patch(
+        f"/api/v1/complaints/{cid}/assign",
+        json={"officer_id": str(officer_profile_id)},
+        headers=headers_admin,
+    )
+    assert assign_res.status_code == 200
+
+    # Citizen retrieves their complaints
+    my_res = await client.get("/api/v1/complaints/my?page=1&page_size=10", headers=headers_citizen)
+    assert my_res.status_code == 200
+    data = my_res.json()
+    assert data["total"] >= 1
+    matched = [item for item in data["items"] if item["id"] == cid]
+    assert len(matched) == 1
+    complaint_item = matched[0]
+    assert complaint_item["assigned_officer"] is not None
+    assert complaint_item["assigned_officer"]["badge_number"] == test_officer_user.officer_profile.badge_number
+    assert complaint_item["assigned_officer"]["user"] is not None
+    assert complaint_item["assigned_officer"]["user"]["email"] == test_officer_user.email
+    assert complaint_item["assigned_officer"]["user"]["full_name"] == test_officer_user.full_name
+
+
+
 # ==============================================================================
 # F. Attachment Security Tests
 # ==============================================================================

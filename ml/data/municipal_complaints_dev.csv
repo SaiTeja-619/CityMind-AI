@@ -1,0 +1,271 @@
+id,title,description,category,urgency_hint
+1,Deep pothole near market entrance,There is a crater in the middle of the road right before the main vegetable market. Vehicles are getting damaged daily.,ROADS,HIGH
+2,Asphalt eroding after recent rains,"The top layer of bitumen has completely washed away, leaving sharp stones exposed which punctured several two-wheeler tyres.",ROADS,MEDIUM
+3,Broken slab on pedestrian walkway,Footpath concrete tiles are fractured and tilted. An elderly citizen tripped and got bruised this morning.,ROADS,MEDIUM
+4,Sunken trench on arterial street,A utility trench was dug two months ago and filled poorly. Now there is a severe depression across the road lane.,ROADS,HIGH
+5,Missing curb stones causing edge collapse,"Along Sector 4 main street, the border stones have collapsed into the mud ditch, eroding the road shoulder.",ROADS,LOW
+6,Dangerous cave-in near storm drain,The road surface beside the culvert has begun sinking rapidly. It looks like the subgrade has caved in.,ROADS,CRITICAL
+7,Speed bump damaged and disintegrated,The rubber speed hump came loose and metal spikes are protruding out of the pavement surface.,ROADS,HIGH
+8,Large fissure across highway flyover ramp,There is a visible horizontal gap opening up on the ascending tarmac of the bridge. Shakes cars violently.,ROADS,CRITICAL
+9,Uneven road surface after pipe laying,Road was patched with loose gravel without rolling or tarring. Bikes are skidding on the gravel.,ROADS,HIGH
+10,Collapsed cobblestones on heritage lane,Paving blocks are loose and popping out whenever auto-rickshaws drive past.,ROADS,LOW
+11,Massive ditch on bus route,State transport buses are swerving into oncoming traffic to avoid a deep cavity in the left lane.,ROADS,CRITICAL
+12,Tarmac peeling off on newly paved lane,Contractor finished carpeting this road last week and the blacktop is already crumbling into black sand.,ROADS,MEDIUM
+13,Manhole rim raised too high above asphalt,The iron rim sits at least 4 inches above the tarmac level. Highly dangerous for motorbikes at night.,ROADS,HIGH
+14,Shoulder erosion near sharp bend,"Edge of the roadway has crumbled away, leaving a steep drop-off directly into the adjacent ravine.",ROADS,CRITICAL
+15,Loose gravel scattered across crossing,Construction vehicle spilled aggregate stones on the turn. Commuters are slipping while braking.,ROADS,HIGH
+16,Sinkhole forming outside residential gate,A round pit has opened up on our street. We can hear hollow echoes beneath the road crust.,ROADS,CRITICAL
+17,Washboard corrugations on bypass road,Rippled ridges on the asphalt surface cause severe vibration and steering loss for small cars.,ROADS,MEDIUM
+18,Sunken manhole cover creating deep hollow,The sewer cap has dropped 6 inches below street grade. Cars bottom out with a loud thud.,ROADS,HIGH
+19,Road dividing barrier collapsed onto lane,The concrete divider block got hit by a truck and is now obstructing half of the right carriageway.,ROADS,HIGH
+20,Cracked pavement tiles outside school,Paving flags are smashed and loose rubble is strewn where schoolchildren board buses.,ROADS,MEDIUM
+21,Exposed rebar in broken bridge expansion joint,Metal reinforcement rods are sticking out of the concrete gap on the overpass.,ROADS,CRITICAL
+22,Mud and slurry covering street after construction,"Earthmovers left thick sticky clay across 200 meters of the public road, making it impossible to walk.",ROADS,MEDIUM
+23,Street surface worn down to bare foundation rocks,No tar remaining on 5th cross street; it is like driving over a riverbed of sharp rocks.,ROADS,MEDIUM
+24,Deep rutting in bus bay lane,"Heavy bus tyres have pressed two deep troughs into the soft asphalt, trapping bicycle wheels.",ROADS,MEDIUM
+25,Pothole cluster near railway underpass,Four consecutive deep hollows in the road underpass cause waterlogging and traffic to stall.,ROADS,HIGH
+26,Missing road shoulder barrier,"Guardrail on the curve has been sheared off, leaving vehicles vulnerable to rolling down the bank.",ROADS,CRITICAL
+27,Sharp elevation step between old and new asphalt,Road resurfacing stopped midway leaving a 3-inch vertical ledge across both lanes.,ROADS,MEDIUM
+28,Sidewalk paving flags caved into telecom pit,"The telecom trench underneath has subsided, pulling down five square meters of walkway.",ROADS,HIGH
+29,Loose iron plate covering road excavation,"The steel road-plate clatters loudly all night and shifted sideways, exposing an open hole.",ROADS,HIGH
+30,Alligator cracking expanding across main avenue,Interconnected web of cracks has turned into loose chunks of asphalt flying into windshields.,ROADS,MEDIUM
+31,Gravel embankment sliding onto residential lane,The retaining slope along the elevated road is washing into our colony street.,ROADS,MEDIUM
+32,Severe dip in roadway near culvert,"Road has settled unevenly over the underground stream, launching vehicles that pass at normal speeds.",ROADS,HIGH
+33,Pothole hidden under muddy puddle,A submerged hole on Station Road is causing scooter riders to lose balance and fall.,ROADS,HIGH
+34,Broken concrete curb puncturing tires,Shattered curbstone has jagged granite pointing directly into the travel lane.,ROADS,MEDIUM
+35,Unpaved connection between two main streets,"A 50-meter gap between two tarred sectors is just dirt and boulders, damaging suspensions.",ROADS,LOW
+36,Street level elevated above house thresholds,"Contractors paved over existing tarmac without milling, now stormwater drains into our living rooms.",ROADS,HIGH
+37,Dislodged speed breaker rubber segments,Bolts are sticking up out of the road where speed cushions have torn away.,ROADS,HIGH
+38,Road shoulder washed away by monsoon flow,Width of the street is reduced to one lane because the side slope collapsed into the nullah.,ROADS,HIGH
+39,Deep gouges in tarmac from construction machinery,Bulldozer tracks ripped up the fresh road surface outside the commercial complex.,ROADS,LOW
+40,Crumbled asphalt around storm water grating,The grating frame has detached from the surrounding road and tilts under tyre load.,ROADS,HIGH
+41,Continuous trench left unpaved for six months,Broadband cable trench across our lane was only covered with loose sand that has washed away.,ROADS,MEDIUM
+42,Crater near hospital emergency entrance,Ambulances must slow to a crawl because of a wide broken road patch right at the gate.,ROADS,CRITICAL
+43,Broken steps on public pedestrian overbridge,"Concrete tread has broken off on the skywalk staircase, presenting a severe fall hazard.",ROADS,HIGH
+44,Tar bleeding in hot weather creating slippery ruts,Excess asphalt binder has softened and created greasy ridges that reduce vehicle braking.,ROADS,LOW
+45,Large rock fell from cutting onto highway lane,"Boulder from the hill cutting landed on the outer lane, narrowing the passage.",ROADS,CRITICAL
+46,Main pipeline rupture flooding street,A major water main has split underground and a geyser of drinking water is shooting up onto the street.,WATER,CRITICAL
+47,No municipal supply for four consecutive days,Our entire block in Ward 12 has received zero piped water since Tuesday. Underground tanks are dry.,WATER,HIGH
+48,Brown muddy water coming from kitchen taps,"The morning water supply is brown, silt-heavy and smells like soil. We cannot use it for cooking.",WATER,HIGH
+49,Low pressure unable to reach first floor,Water trickle is so weak that it fails to push past the ground floor inlet valves.,WATER,MEDIUM
+50,Water distribution valve leaking continuously,"The sluice valve box at the corner has been overflowing for days, wasting thousands of litres.",WATER,MEDIUM
+51,Sewage odor in drinking water pipeline,"When we turn on the municipal water tap, there is a strong stench of sewer gas. Suspect cross-contamination.",WATER,CRITICAL
+52,Overhead community reservoir tank leaking,The public water tower in our sector has a crack near the base leaking water constantly.,WATER,HIGH
+53,Public standpost tap broken and gushing,The brass bibcock was vandalized and clean water has been running into the gutter non-stop.,WATER,MEDIUM
+54,Oily sheen on water from municipal line,There is a visible chemical or petrol-like sheen floating on top of the water filled from our tap.,WATER,CRITICAL
+55,Irregular and unannounced water supply timings,"Water is released at 3 AM for only twenty minutes without any notice, leaving residents stranded.",WATER,LOW
+56,Underground pipe joint leaking beneath pavement,Water is bubbling up through the pavement cracks and wetting the street even on sunny days.,WATER,MEDIUM
+57,Air in pipes causing water meter to spin rapidly,"Only high pressure air is hissing through the pipes, yet our consumption meter is spinning wildly.",WATER,LOW
+58,Severe shortage of tanker supplies during shutdown,Department promised emergency water tankers during maintenance but none have arrived in our area.,WATER,HIGH
+59,Contaminated water causing stomach illness,Multiple families in our alley are suffering from diarrhea after drinking boiled municipal tap water.,WATER,CRITICAL
+60,Damaged water meter leaking in front yard,The brass connection prior to the residential meter split under pressure.,WATER,LOW
+61,Water supply cuts without prior advisory,We experienced an abrupt shutoff without any notification from the water board.,WATER,MEDIUM
+62,High chlorine smell making water undrinkable,Chemical bleach odor in the water is so intense that our eyes burn while washing dishes.,WATER,MEDIUM
+63,Air lock in neighborhood distribution line,"Surrounding streets have normal water flow, but our dead-end lane has zero flow due to trapped air.",WATER,MEDIUM
+64,Water booster pump station offline,"The local pumping station has been switched off since yesterday, starving the overhead tanks.",WATER,HIGH
+65,Rust flakes and black particles in tap water,Sediment and metal particles are clogging our sink aerators and water purifier cartridges.,WATER,HIGH
+66,Submerged pipe leaking into drainage channel,Potable line running beside the open gutter is broken and clean water is mixing with sewage.,WATER,CRITICAL
+67,Defective control valve blocking water to odd-numbered houses,Half our street gets full pressure while the other half gets not a single drop.,WATER,MEDIUM
+68,Water line severed during fiber optic cable digging,Trench diggers snapped the 4-inch PVC drinking water pipe; road is submerged.,WATER,HIGH
+69,Excessive salinity in municipal water supply,Water tastes unusually salty and leaves thick white crust on utensils; unpalatable.,WATER,MEDIUM
+70,Community well hand pump disconnected,"The mechanical handle on the municipal hand pump has broken off, depriving poor households of water.",WATER,MEDIUM
+71,Flooding in basement due to municipal main crack,Water from the street distribution main has penetrated through our foundation wall.,WATER,CRITICAL
+72,Supply pressure dropped to a feeble dribble,Filling one 15-litre bucket is taking almost forty minutes this entire week.,WATER,MEDIUM
+73,Foul worm-like larvae found in tap water,Small insect larvae emerged from the kitchen faucet when filling drinking bottles.,WATER,CRITICAL
+74,Underground pipe vibration causing humming noise,Water pipes under the street are vibrating severely and hammering when valves open.,WATER,LOW
+75,Standpipe valve missing cap,"Anyone can turn the valve spindle with a wrench, leading to unauthorized water diversion.",WATER,LOW
+76,Colony pipeline choked with mineral calcium scale,Very little water flows because the decades-old cast iron lines are choked internally.,WATER,MEDIUM
+77,Broken air release valve spraying passing cars,The automatic air release vent on the ring road trunk line is spraying a 10-foot fountain.,WATER,HIGH
+78,Water supply stopped abruptly mid-morning,Water shut off after barely 10 minutes of flow while residents were filling storage drums.,WATER,MEDIUM
+79,Greyish soapy tint in municipal water,Water looks cloudy and produces froth without any detergent being added.,WATER,HIGH
+80,Public drinking fountain out of order,The cooling and filtration unit at the district bus terminus has run dry.,WATER,LOW
+81,Subsurface water leak causing ground subsidence,"A hidden pipe leak has turned the soil under the sidewalk into mud, causing slabs to tilt.",WATER,HIGH
+82,Water supply schedule changed without intimation,Timings were changed from morning to midnight with no public announcement.,WATER,LOW
+83,Water smells strongly of sulfur and rotten eggs,Smell coming from the tap water makes it unusable for bathing or cooking.,WATER,HIGH
+84,Main valve chamber flooded with dirty runoff,The valve box where our supply is adjusted is submerged under street sludge.,WATER,MEDIUM
+85,Weak pressure at tail end of the distribution network,Houses at the far end of the pipeline get no water while houses at the beginning get plenty.,WATER,MEDIUM
+86,Pipe joint burst near primary health clinic,Treated drinking water is flooding the entrance steps of the clinic.,WATER,HIGH
+87,Turbidity in tap water following line repair work,"Ever since road repair crews fixed a joint, our water comes out opaque and brown.",WATER,MEDIUM
+88,Municipal water delivery tanker driver demanding money,Driver sent for free emergency supply is demanding unauthorized cash per household.,WATER,MEDIUM
+89,Dry taps across entire resettlement colony,Over three hundred households have had no supply for over 72 hours; acute crisis.,WATER,CRITICAL
+90,Cracked water pipe spraying onto electrical transformer,A high pressure water spray from an underground leak is hitting a 440V transformer pole.,WATER,CRITICAL
+91,Overflowing community garbage container,The large green metal dumpster is completely packed and garbage is spilling onto the roadway.,WASTE,HIGH
+92,Garbage truck has not visited in over a week,Door-to-door sanitation tractor hasn't come since last Monday; trash bags piling up on doorsteps.,WASTE,HIGH
+93,Illegal dumping of construction debris on vacant lot,Dump trucks are secretly tipping concrete rubble and broken bricks in the empty plot every night.,WASTE,MEDIUM
+94,Stray cattle and dogs scattering rotting waste,"Animals are ripping open plastic trash bags, spreading putrid kitchen food scraps across the street.",WASTE,MEDIUM
+95,Foul stench from uncleaned secondary waste bin,"The open waste dump point outside our colony smells unbearable, attracting swarms of flies.",WASTE,HIGH
+96,Discarded commercial plastic sacks choking road,Market shopkeepers dumped forty bundles of packing foam and plastic wraps on the walkway.,WASTE,MEDIUM
+97,Dead animal decomposing on roadside,A stray dog carcass has been lying on the sidewalk for two days; needs urgent carcass disposal.,WASTE,CRITICAL
+98,Fish and poultry market waste dumped in open space,"Butchers are dumping chicken feathers, entrails and rotten fish guts in the public lane.",WASTE,CRITICAL
+99,Sanitation staff burning dry leaves and plastic,"Sweepers are lighting bonfires of collected sweepings and plastic cups, creating toxic smoke.",WASTE,HIGH
+100,Damaged dumpster with rusted broken bottom,The bin has no floor; garbage dumped inside falls straight through onto the pavement.,WASTE,MEDIUM
+101,Litter strewn around public park benches,"Picnickers left food containers, wrappers and soda cans scattered all over the lawn.",WASTE,LOW
+102,No dustbins installed along busy shopping avenue,"Pedestrians have nowhere to throw trash, so the entire pedestrian walkway is covered in litter.",WASTE,LOW
+103,Broken glass bottles thrown in children play area,Shattered beer and liquor bottles scattered around swings present a cutting hazard.,WASTE,HIGH
+104,Rotting vegetable refuse dumped behind market,"Wholesale vendors dump unsold spoiled tomatoes and cabbages, creating an open fermenting pile.",WASTE,MEDIUM
+105,Used medical packaging and syringes dumped near clinic,"Blister packs, empty ampoules and discarded syringes found abandoned in a plastic bag on the street.",WASTE,CRITICAL
+106,Sanitation truck leaking putrid leachate on street,Garbage compactor is dripping dark smelly liquid all along its morning route.,WASTE,MEDIUM
+107,Illegal tire dumping in woodland area,"Dozens of discarded truck tires have been dumped off the bypass, creating a fire hazard.",WASTE,MEDIUM
+108,Garden pruning branches blocking footpath,Someone cut down three large trees and left heavy branches blocking the pavement for two weeks.,WASTE,MEDIUM
+109,Dumpster placed in the middle of pedestrian crosswalk,The municipality placed the rolling steel dumpster directly in front of the zebra crossing.,WASTE,LOW
+110,Garbage collection vehicle skipping narrow lanes,Sanitation auto-tipper refuses to enter lane 4 claiming it is too narrow; residents must carry bags far.,WASTE,LOW
+111,Discarded mattresses and broken furniture on corner,Old sofas and foam mattresses dumped on street corner are becoming soggy and moldy.,WASTE,LOW
+112,Fly tipping of industrial plastic scraps,Unregistered factory is dumping bags of PVC trimming scraps on the ring road verge.,WASTE,MEDIUM
+113,Commercial restaurant dumping cooking grease in ditch,Eatery staff empty barrels of used cooking oil and food waste into the open storm channel.,WASTE,HIGH
+114,Street sweepers not cleaning inner residential streets,Sweeping takes place only on the main road; our internal residential streets have not been swept this month.,WASTE,LOW
+115,Stagnant mountain of trash near transit interchange,Commuters must walk past a 10-foot mound of uncollected waste outside the suburban station.,WASTE,HIGH
+116,Spilled food leftovers attracting rodent infestation,Rats are burrowing into the unattended food waste piles behind the commercial complex.,WASTE,HIGH
+117,Hazardous electronic waste dumped in ditch,"Smashed computer monitors, cathode tubes, and circuit boards dumped in municipal storm gutter.",WASTE,HIGH
+118,"Garbage bin lid missing, rain creating foul soup","Without a lid, rainwater enters the bin and mixes with organic refuse into a rancid slime.",WASTE,MEDIUM
+119,Flyers and advertising banners torn and littering street,"Illegal poster paste-ups have fallen onto the pavement, creating slippery paper mulch.",WASTE,LOW
+120,Compost plant odor spreading to residential colony,The municipal leaf-composting yard is mismanaged and venting strong anaerobic sewer-like stench.,WASTE,MEDIUM
+121,Waste collection bell not rung before departure,Collector van passes silently and drives off before elderly residents can bring down their bins.,WASTE,LOW
+122,Plastic carry bags clogging tree roots and fences,Single-use plastic bags caught in hedges and fences look terrible and trap dirt.,WASTE,LOW
+123,Sanitation worker demanding festival tipping,Collection staff are refusing to pick up household bins unless residents pay festive tips.,WASTE,LOW
+124,Raw sewage mixed with solid waste on open plot,"Unchecked garbage dumping has blocked surface runoff, creating a cesspool of trash and muck.",WASTE,HIGH
+125,Car repair garage dumping scrap metal on pavement,"Automobile workshop leaves rusty exhausts, fenders, and oily parts on the pedestrian path.",WASTE,MEDIUM
+126,Unsegregated wet and dry waste dumped together,Sanitation crew dumps segregated biodegradable and recyclable bins into the same truck hopper.,WASTE,LOW
+127,Discarded thermocol foam blowing across expressway,White polystyrene packaging boxes broke open and styrofoam flakes are blinding highway drivers.,WASTE,HIGH
+128,Dumpster catching fire due to lit cigarette,Plastic waste inside the municipal trash container is smoldering and producing acrid black fumes.,WASTE,CRITICAL
+129,Hazardous paint cans and thinner dumped in alley,"Chemical solvent containers left behind an apartment building, strong fumes causing dizziness.",WASTE,HIGH
+130,Public bin overflowing directly opposite school gate,Students entering school must step through rotting fruit peels and soggy trash bags.,WASTE,HIGH
+131,Discarded coconut shells accumulating rainwater,Piles of green coconut husks dumped by street vendors are holding water and breeding mosquitoes.,WASTE,MEDIUM
+132,Illegal demolition waste dumped on river bank,Concrete slabs and plaster debris are choking the river bank promenade.,WASTE,MEDIUM
+133,No evening sweeping in busy commercial market,"After evening trading, market lanes are ankle-deep in vegetable cartons and plastic wrappers.",WASTE,LOW
+134,Dumpster tipped over on its side by vehicle,The heavy metal waste bin is lying overturned with its contents spilled over the sidewalk.,WASTE,MEDIUM
+135,Massive trash heap blocking emergency fire lane,Residential building fire exit route is completely obstructed by piled refuse sacks.,WASTE,CRITICAL
+136,Streetlight out on entire stretch of Park Road,"Ten consecutive lamp posts are completely dark, making the road unsafe for walking at night.",ELECTRICITY,MEDIUM
+137,Sparks flying from overhead distribution transformer,Loud buzzing and visible orange electrical arcs coming from the pole-mounted transformer box.,ELECTRICITY,CRITICAL
+138,Snapped power line dangling onto wet ground,A high voltage electric cable has snapped and is resting on the puddle outside our gate.,ELECTRICITY,CRITICAL
+139,Streetlight lamp flickering rapidly every night,"Sodium vapor bulb outside building #14 strobes continuously like a flash, causing disturbance.",ELECTRICITY,LOW
+140,Open fuse junction box at children eye level,"Metal cover on the electric pole base is missing, leaving energized bare copper busbars exposed.",ELECTRICITY,CRITICAL
+141,Streetlights remaining illuminated throughout daylight hours,"Timers appear broken; all lights on the avenue are burning brightly at 2 PM, wasting electricity.",ELECTRICITY,LOW
+142,Wooden electrical pole tilted dangerously toward roof,Rotten utility pole has tilted 30 degrees and seems ready to crash down on our balcony.,ELECTRICITY,HIGH
+143,Low hanging high tension cable over school lane,"Overhead wires are sagging to within 8 feet of the ground, trucks are brushing against them.",ELECTRICITY,CRITICAL
+144,Frequent voltage surges damaging household appliances,Voltage fluctuating between 160V and 290V; our refrigerator and air conditioner compressors tripped.,ELECTRICITY,HIGH
+145,Underground cable junction smoking on sidewalk,Smell of burning rubber and white smoke rising from a subterranean electrical inspection hatch.,ELECTRICITY,CRITICAL
+146,Lamp post damaged in car collision leaning over road,Steel pole was struck by a vehicle; it is bent in half and hanging by its power cables.,ELECTRICITY,HIGH
+147,Total blackout in Block C while adjacent blocks have power,Colony phase feeder blew out; thirty homes have had no power for five hours.,ELECTRICITY,HIGH
+148,Electric shock felt when touching metal bus shelter,Commuters getting mild electric tingles from the metal shelter pillars during rainfall.,ELECTRICITY,CRITICAL
+149,Streetlight fixture detached and swinging in wind,Heavy aluminum lamp head has broken off its bracket and is suspended only by its thin wiring.,ELECTRICITY,HIGH
+150,Tree branches touching 11kV electrical conductors,Eucalyptus boughs are rubbing against uninsulated live cables; sparks during windy weather.,ELECTRICITY,HIGH
+151,Neutral wire fault causing 300V across sockets,Sudden voltage jump burnt out all LED bulbs in the apartment complex; urgent line check needed.,ELECTRICITY,CRITICAL
+152,No street lighting on pedestrian underpass walkway,"Subway under the ring road is pitch black 24/7, leading to anti-social activity and muggings.",ELECTRICITY,HIGH
+153,Substation transformer oil leaking onto public pathway,Thick insulating cooling oil is dripping from the transformer tank onto the ground below.,ELECTRICITY,MEDIUM
+154,Unmetered dangerous illegal power hookups on pole,Street vendors have thrown hook wires over overhead conductors; messy web of uninsulated joints.,ELECTRICITY,HIGH
+155,Broken glass casing on vintage heritage street lamp,Glass globe fell and shattered; internal filament is exposed to rain.,ELECTRICITY,LOW
+156,Frequent tripping of local distribution circuit breaker,Power trips every twenty minutes and restores after five minutes; continuous cycle.,ELECTRICITY,MEDIUM
+157,Streetlight timer clock out of synchronization,"Lights turn on at 9 PM and turn off at 4 AM, leaving the darkest morning commute in pitch black.",ELECTRICITY,LOW
+158,High voltage cable laid above ground across footpath,Contractors ran temporary black armoured cable directly over the pavement without conduits.,ELECTRICITY,HIGH
+159,Cracked porcelain insulator on medium voltage pole,One of the three brown ceramic discs is cracked in half; continuous buzzing hiss audible.,ELECTRICITY,HIGH
+160,Humming noise and burning plastic odor from feeder pillar,Green distribution box on the corner is hot to the touch and humming with an intense buzz.,ELECTRICITY,HIGH
+161,Streetlight pole rusted through at ground level,Corrosion has eaten away the steel base; the entire mast rocks back and forth when pushed.,ELECTRICITY,HIGH
+162,Phase failure resulting in dim brownout across sector,Single phase is dead; ceiling fans are crawling and water pumps cannot start.,ELECTRICITY,MEDIUM
+163,Electricity meter box engulfed in ivy and creepers,"Overgrown vegetation has covered the transformer enclosure, posing fire and short-circuit risk.",ELECTRICITY,LOW
+164,Temporary festival lighting wire hanging into traffic,Flimsy decorative cables stringing across the road have drooped into double-decker bus clearance.,ELECTRICITY,MEDIUM
+165,Streetlights facing wrong direction toward building walls,"Brackets were installed backwards, illuminating apartment bedroom windows instead of the street.",ELECTRICITY,LOW
+166,Overloaded distribution box circuit trip switch hot,Main neighborhood fuse carrier is melting its plastic casing due to excessive current draw.,ELECTRICITY,HIGH
+167,Pedestrian walkway decorative bollard lights vandalized,Low-level pathway bollards have been smashed and live wire ends are poking out of the stumps.,ELECTRICITY,HIGH
+168,Transformer enclosure gate left unlocked with missing lock,Door to the high-voltage fenced cage is wide open; children playing cricket nearby can wander in.,ELECTRICITY,CRITICAL
+169,Fallen service cable blocking residential driveway,Service drop wire to neighbor's house pulled loose and is draped across our car gate.,ELECTRICITY,MEDIUM
+170,Dim yellow incandescent bulbs providing zero illumination,Old 40W tungsten bulbs installed on main highway exit instead of high-mast LED fixtures.,ELECTRICITY,LOW
+171,Streetlights turning off intermittently every few minutes,"Thermal sensor or ballast is overheating, causing lamps to cut out in sequence.",ELECTRICITY,LOW
+172,Exposed conductor touching sheet metal roof of shed,Loose secondary wire is rubbing on the corrugated iron awning of a bus waiting shed.,ELECTRICITY,CRITICAL
+173,Power fluctuation causing emergency hospital generator to engage,Area grid voltage is so erratic that medical clinic equipment keeps switching to battery.,ELECTRICITY,CRITICAL
+174,Corroded stay wire supporting utility pole snapped,The diagonal tension cable anchored in the ground has broken; pole is bending under line tension.,ELECTRICITY,HIGH
+175,Burnt out underground cable causing persistent outage,Fault locator needed; street lights on north side of 12th avenue have no line continuity.,ELECTRICITY,MEDIUM
+176,High mast tower light at sports ground inoperative,Central high mast cluster of eight floodlights is completely dead for over two months.,ELECTRICITY,LOW
+177,Electric service wire caught in passing truck caught tension,Truck dragged the service cable and pulled meter off building wall; exposed terminals.,ELECTRICITY,CRITICAL
+178,Solar streetlight battery box stolen,The battery container on the standalone solar street post was pried open and cells stolen.,ELECTRICITY,LOW
+179,Loud explosion heard from pole top capacitor bank,Oil and debris sprayed after a capacitor unit burst on the 11kV line; power knocked out.,ELECTRICITY,CRITICAL
+180,Earthing wire disconnected from municipal lighting mast,Copper ground rod connection is severed and hanging loose; zero grounding protection.,ELECTRICITY,HIGH
+181,Traffic signals dead at busy four-way junction,All signal lights are off at Main and 5th intersection. Total vehicular deadlock and near-misses.,TRAFFIC,CRITICAL
+182,Traffic light stuck permanently on red in Northbound lane,Cars have been waiting twenty minutes; drivers are getting impatient and blowing through the light.,TRAFFIC,HIGH
+183,Both opposing directions showing green simultaneously,Dangerous conflict: Eastbound and Southbound directions both getting green lights at the same moment.,TRAFFIC,CRITICAL
+184,Pedestrian walk signal button broken and unresponsive,Push-to-cross button has been smashed; pedestrians unable to trigger walk phase across 6-lane road.,TRAFFIC,HIGH
+185,Traffic lights blinking amber for three weeks,"The controller at Civil Hospital crossing never leaves night flashing mode, resulting in chaos.",TRAFFIC,HIGH
+186,Road signage blocked by overgrown banyan tree,Speed limit and mandatory right-turn signs are completely hidden behind thick tree leaves.,TRAFFIC,LOW
+187,Missing one-way entry prohibition sign,"The 'No Entry' sign fell off its post, and out-of-town drivers are entering the one-way street head-on.",TRAFFIC,CRITICAL
+188,Severe bottleneck caused by unauthorized bus halt,"Private coaches stopping right in the roundabout exit to pick up passengers, blocking 2 lanes.",TRAFFIC,HIGH
+189,Faded pedestrian zebra crossing markings,White paint on road crossing has worn off entirely; drivers do not yield to crossing schoolchildren.,TRAFFIC,MEDIUM
+190,Traffic signal timer sequence out of proportion,Side alley with 2 cars gets 90 seconds green while the main arterial highway gets only 15 seconds.,TRAFFIC,MEDIUM
+191,Broken lane divider bollards on expressway flyover,Flexible plastic lane posts have been flattened and cars are crossing over into oncoming lanes.,TRAFFIC,HIGH
+192,Missing speed limit board near kindergarten zone,Vehicles speeding at 70 km/h past nursery school because there is no regulatory speed restriction sign.,TRAFFIC,HIGH
+193,Vehicle queue backed up two kilometers due to uncoordinated signals,"Adjacent intersections are completely out of phase, creating cascading gridlock during rush hour.",TRAFFIC,MEDIUM
+194,Auto-rickshaws parking illegally across bus stop bay,"Buses cannot pull up to curb, forcing passengers to board in the middle of active traffic.",TRAFFIC,MEDIUM
+195,Defective countdown timer on traffic lights,"Digital second countdown jumps erratically from 40 to 0 with no amber transition, causing pileups.",TRAFFIC,CRITICAL
+196,Signboard indicating hospital direction pointed backwards,"Direction arrow for emergency care points opposite to the actual road layout, misleading ambulances.",TRAFFIC,HIGH
+197,No turn-on-red sign missing after intersection redesign,"Drivers turning right without yielding to pedestrians on crossing, causing accidents.",TRAFFIC,HIGH
+198,Broken crash cushion barrier at highway exit gore,Impact attenuator barrel was destroyed in previous crash and has not been replaced.,TRAFFIC,HIGH
+199,Rogue median cut allowing dangerous illegal U-turns,Someone removed the center curb divider; motorbikes are making blind turns into high-speed traffic.,TRAFFIC,CRITICAL
+200,Heavy delivery trucks loading during prohibited peak hours,Large 16-wheel lorries blocking narrow commercial high street at 9 AM in defiance of restrictions.,TRAFFIC,MEDIUM
+201,Missing reflective cat eyes on unlit curved highway,Road studs have dislodged; impossible to see where the road bends on foggy nights.,TRAFFIC,HIGH
+202,Pedestrian refuge island crushed by semi-trailer,Concrete refuge in the center of the boulevard is shattered; pedestrians have no safe refuge.,TRAFFIC,HIGH
+203,Stop sign knocked down and lying in ditch,"Intersection now appears uncontrolled to drivers, causing high-speed T-bone near misses.",TRAFFIC,CRITICAL
+204,Unregulated shared van operators fighting at intersection,Vans blocking the junction box while touting for passengers; zero traffic enforcement present.,TRAFFIC,MEDIUM
+205,Yellow box junction markings completely erased,No one respects the intersection clearance zone because the yellow hatching is invisible.,TRAFFIC,MEDIUM
+206,Traffic camera pole tilted over lane,Automated enforcement camera gantry pole has cracked bolts and is swaying dangerously over cars.,TRAFFIC,HIGH
+207,Wrong arrow markings painted on lanes,"Left lane has straight arrow but road forces an immediate left turn, confusing commuters.",TRAFFIC,LOW
+208,Signal cycle too short for elderly pedestrians to cross,Pedestrian green lasts barely 7 seconds across an 8-lane road; people stranded in center.,TRAFFIC,HIGH
+209,Blind corner intersection lacks convex safety mirror,Cannot see oncoming vehicles around high compound wall; vehicles colliding at low speed.,TRAFFIC,MEDIUM
+210,Missing barrier on railway level crossing approach,Warning rumble strips and barrier arm missing near train tracks.,TRAFFIC,CRITICAL
+211,Commercial delivery vans parked double in bike lane,Cyclists forced out into 50 km/h traffic stream by delivery couriers unloading boxes.,TRAFFIC,MEDIUM
+212,Traffic signal head turned around by heavy storm wind,"Signal face is pointed 90 degrees away from oncoming drivers, leaving motorists without indications.",TRAFFIC,HIGH
+213,No merge lane on high speed expressway entry slip,"Slip road terminates abruptly with zero acceleration lane, forcing dangerous dead stops.",TRAFFIC,HIGH
+214,Unauthorized makeshift barricades placed across road,Private club placed steel barricades across public street to reserve private parking.,TRAFFIC,LOW
+215,Reflective directional chevron signs missing on hairpin bend,"Four warning chevron signs on ghat section have fallen off, cars failing to judge corner.",TRAFFIC,CRITICAL
+216,Traffic signal lantern lens smashed by stone,Red lens is broken; white bulb blinding drivers and hard to distinguish from green at a distance.,TRAFFIC,MEDIUM
+217,Traffic jam caused by broken down municipal crane,Department vehicle broke down at bottleneck point and has been left unattended for six hours.,TRAFFIC,MEDIUM
+218,Missing school crossing patrol guard sign,No warning signs alerting drivers that hundreds of children cross at 3 PM daily.,TRAFFIC,HIGH
+219,Variable message signboard displaying garbled text,Highway LED matrix sign displays flashing gibberish characters instead of fog warnings.,TRAFFIC,LOW
+220,Unauthorized speed breaker installed by local resident,Illegal concrete ridge built across road without municipal approval; scraping car sumps.,TRAFFIC,HIGH
+221,Vehicles driving wrong way on expressway ramp to save toll,Two-wheelers and tractors entering exit ramp against traffic flow; fatal head-on hazard.,TRAFFIC,CRITICAL
+222,Traffic police kiosk abandoned in middle of roundabout,Old metal booth is rusting and obscuring sight lines for drivers entering the roundabout.,TRAFFIC,LOW
+223,Missing height clearance warning sign before low bridge,Double decker bus scraped roof on 3.5m overpass; no advance warning gantries present.,TRAFFIC,HIGH
+224,Pedestrian crosswalk terminates directly into guardrail,Zebra crossing leads pedestrians straight into an impenetrable metal highway barrier.,TRAFFIC,LOW
+225,Signal controller cabinet pried open and wires vandalized,Electronic control unit box is open to the rain and wires are cut; junction disabled.,TRAFFIC,HIGH
+226,Stagnant open sewage drain breeding dense mosquitoes,The open nullah in our colony is completely choked with black sludge. Swarms of mosquitoes entering houses.,HEALTH,CRITICAL
+227,Sewage overflowing from manhole into residential street,Foul human waste is bubbling up from the blocked sewer line and flooding our front porch.,HEALTH,CRITICAL
+228,Illegal butcher shop disposing blood in open gutter,"Slaughterhouse runoff and blood is washing down the roadside ditch, causing sickening stench.",HEALTH,HIGH
+229,Public toilet facility filthy and lacking water,"Municipal community toilet has no running water, clogged bowls, and excrement on the floors.",HEALTH,HIGH
+230,Dengue outbreak risk from abandoned fountain pool,Water has been standing green and algae-ridden in the public park pond for four months.,HEALTH,HIGH
+231,Raw sewage backing up into ground floor bathrooms,Main municipal sewer line on the road is plugged; sewage is coming up through our shower drains.,HEALTH,CRITICAL
+232,Rodent infestation around open restaurant waste dump,"Hundreds of large rats infesting the alleyway behind restaurants, entering homes and biting residents.",HEALTH,HIGH
+233,Severe chemical stench causing breathing difficulty,Industrial unit in neighboring layout venting suffocating chemical fumes during midnight hours.,HEALTH,CRITICAL
+234,Unsanitary open defecation on railway border land,Lack of public toilets leading to open defecation along the track fence; health hazard for residents.,HEALTH,HIGH
+235,Vector control fogging has not occurred this season,"Malaria and chikungunya cases reported in our lane, but municipal fumigation truck has never visited.",HEALTH,MEDIUM
+236,Sewage sludge dumped on roadside by septic tank cleaner,Private cesspool tanker emptied raw septic tank contents onto the curb and drove off.,HEALTH,CRITICAL
+237,Green slime and fungal growth on public water cooler,The refrigerated water dispenser at the sub-registrar office has mold around the dispensing spouts.,HEALTH,MEDIUM
+238,Dead pig carcass floating in community drainage canal,Decomposing animal in the canal is causing severe odor and attracting flies across Ward 7.,HEALTH,HIGH
+239,Pigeon droppings accumulating on school ventilation ducts,"Thick layers of bird feces entering classrooms through intake vents, triggering asthma in children.",HEALTH,MEDIUM
+240,Overflowing septic tank in municipal staff quarters,The waste pit is full and black wastewater is seeping into the surrounding playground.,HEALTH,HIGH
+241,Uncovered storm drain emitting sulfurous toxic gases,Gases from the open drain are tarnishing silver utensils and causing nausea in our apartment.,HEALTH,MEDIUM
+242,Illegal dairy farm washing cattle dung into street,Cow shed owner washes slurry of manure and urine directly into the pedestrian alleyway.,HEALTH,MEDIUM
+243,Choked sewer creating foul lake outside primary health post,Patients must wade through ankle-deep sewage water to reach the public immunization center.,HEALTH,CRITICAL
+244,Mosquito larvae clearly visible in unsealed water storage cistern,The overhead fire storage tank on the municipal building has a missing cover; teeming with larvae.,HEALTH,HIGH
+245,Stray dog pack showing signs of rabies in sector,"Aggressive stray dogs frothing at mouth, snapped at two passersby outside colony park.",HEALTH,CRITICAL
+246,Unsanitary roadside food stalls washing dishes in gutter water,Vendors dipping tea glasses and plates into bucket filled with wastewater from the ditch.,HEALTH,HIGH
+247,Sewage pipeline leaking directly into drinking water well,Seepage from cracked sewer main is penetrating into the ground near the community tube well.,HEALTH,CRITICAL
+248,Medical bio-hazard waste mixed with open street trash,"Bloody bandages, specimen containers and IV tubing found dumped beside public bus stand.",HEALTH,CRITICAL
+249,Asbestos insulation crumbling in public community hall,Ceiling insulation panels are broken and releasing fibrous dust onto visitors.,HEALTH,HIGH
+250,Open garbage dump breeding flies inside residential colony,Flies are so thick that residents cannot keep windows open; multiple cases of gastroenteritis.,HEALTH,HIGH
+251,Public park grass overgrown and infested with venomous snakes,Reptiles spotted in the tall unmaintained weeds where small children play in the evening.,HEALTH,HIGH
+252,Foul grease trap overflowing from hotel kitchen,Yellowish rancid fat and rotting food scrap emulsion flooding the back service lane.,HEALTH,MEDIUM
+253,Open cesspool created by blocked culvert,Storm culvert blocked with construction sand; water has turned into a stagnant black pond.,HEALTH,HIGH
+254,Stench of dead rodents from municipal electric switch room,Multiple dead rats inside the equipment shed causing unbearable odor near bus stop.,HEALTH,LOW
+255,No sanitation inspection at unauthorized fish processing shed,Rotten fish water running across pedestrian path; residents suffering from throat irritation.,HEALTH,MEDIUM
+256,Subsurface sewage seepage dampening basement walls,Raw sewage is oozing through the cellar retaining wall of residential apartments.,HEALTH,HIGH
+257,Drainage line chocked with plastic debris,Entire storm line is plugged solid; first light rain causes sewage to bubble over into streets.,HEALTH,MEDIUM
+258,Unregulated burning of synthetic waste creating toxic smog,Burning of rubber and cable casings creating black soot settling on baby cribs and balconies.,HEALTH,CRITICAL
+259,Stagnant water in discarded tires at tire repair shop,Piles of old tractor tires full of rainwater; prime breeding habitat for Aedes aegypti mosquitoes.,HEALTH,HIGH
+260,Municipal disinfectant spraying stopped for six months,Bleaching powder has not been sprinkled around drains; bad odors and maggots visible.,HEALTH,MEDIUM
+261,Contaminated pond causing skin infections among children,Kids swimming in the unmaintained municipal lake are developing painful rashes and boils.,HEALTH,HIGH
+262,"Sewer manhole lid displaced, emitting sickening fumes",Heavy concrete cover broke in two; open hole venting concentrated hydrogen sulfide.,HEALTH,CRITICAL
+263,Stagnant puddle inside government dispensary courtyard,Patients waiting in line are getting bitten by mosquitoes from the puddle at the doorstep.,HEALTH,HIGH
+264,Illegal slaughtering taking place in residential garage,Blood runoff and animal heads discarded in plastic bags; horrific odor and sanitary hazard.,HEALTH,CRITICAL
+265,Rotting food grain in damp government civil supplies godown,Moldy grain infested with weevils and rodents; musty spores wafting into neighboring houses.,HEALTH,MEDIUM
+266,Public water tap surrounded by pool of muddy sewage,Residents have to stand in septic runoff to fill drinking water vessels from the public tap.,HEALTH,CRITICAL
+267,Open urinal without drain connection spilling onto footpath,Improvised public urinal has no pipe; urine washes directly across the walking path.,HEALTH,MEDIUM
+268,Municipal park water tap leaking into boggy marsh,Unrepaired tap has created a 20-meter swamp filled with mosquito larvae.,HEALTH,MEDIUM
+269,Hospital incinerator smoke blowing into nursery school,Dense black medical incinerator smoke blowing directly toward kindergarten playground.,HEALTH,CRITICAL
+270,Blocked public storm ditch filled with rotting animal remains,Ditch has been blocked for weeks; decaying organic matter creating severe bio-hazard.,HEALTH,HIGH

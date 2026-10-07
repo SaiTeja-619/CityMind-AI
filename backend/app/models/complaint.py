@@ -9,6 +9,7 @@ from app.db.base import Base
 
 if TYPE_CHECKING:
     from app.models.category import ComplaintCategory
+    from app.models.complaint_ai_analysis import ComplaintAIAnalysis
     from app.models.complaint_attachment import ComplaintAttachment
     from app.models.complaint_status_history import ComplaintStatusHistory
     from app.models.officer import Officer
@@ -128,6 +129,13 @@ class Complaint(Base):
         back_populates="complaint",
         cascade="all, delete-orphan",
         order_by="ComplaintAttachment.created_at.asc()",
+    )
+    ai_analysis: Mapped[Optional["ComplaintAIAnalysis"]] = relationship(
+        "ComplaintAIAnalysis",
+        back_populates="complaint",
+        uselist=False,
+        cascade="all, delete-orphan",
+        lazy="joined",
     )
 
     # Response and frontend convenience properties

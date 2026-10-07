@@ -34,7 +34,7 @@ class Officer(Base, TimestampMixin):
     is_available: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
 
     # Relationships
-    user: Mapped["User"] = relationship("User", back_populates="officer_profile")
+    user: Mapped["User"] = relationship("User", back_populates="officer_profile", lazy="joined")
     department: Mapped["Department"] = relationship("Department", back_populates="officers", lazy="joined")
 
     def __repr__(self) -> str:
